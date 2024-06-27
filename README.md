@@ -13,7 +13,7 @@
 
 - **Инструменты:** Pairwise Tool, Miro, Qase, TestRail, Exel
 
-([**Ссылка**](https://github.com/MarkVORNO/MarkVORNO/main/Section_1.md))
+([**Ссылка**](https://github.com/MarkVORNO/MarkVORNO/blob/main/Section_1.md))
 
 
 ### Раздел 1: Тестирование веб-приложения
