@@ -9,11 +9,39 @@
 
 ## Разделы
 
-### Раздел 1: Техники тест дизайна / Состовление документации (баг-репорты, чек-листы)
+### Раздел 1: Техники тест дизайна / Составление документации (баг-репорты, чек-листы)
 
 - **Инструменты:** Pairwise Tool, Miro, Qase, TestRail, Exel
 
 ([**Ссылка**](https://github.com/MarkVORNO/MarkVORNO/blob/main/Section_1.md))
+
+### Раздел 2: Тестирование верстки по макету ( Соответствие макету, функционал, адаптивность, кроссбраузерность)
+
+- **Инструменты:** DevTools, PerfectPixel, TestRail, BrowserStack, Figma
+
+([**Ссылка**](https://github.com/MarkVORNO/MarkVORNO/blob/main/Section_2.md))
+
+
+### Раздел 3: Тестирование API
+
+- **Инструменты:** Postman, Swagger
+
+([**Ссылка**](https://github.com/MarkVORNO/MarkVORNO/blob/main/Section_3.md))
+
+
+
+### Раздел 4: SQL запросы
+
+- **Инструменты:** PostgreSQL
+
+([**Ссылка**](https://github.com/MarkVORNO/MarkVORNO/blob/main/Section_4.md))
+
+
+
+
+
+
+
 
 
 ### Раздел 1: Тестирование веб-приложения
