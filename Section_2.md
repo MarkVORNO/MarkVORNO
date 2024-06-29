@@ -18,7 +18,7 @@
 
 Мобильная версия:
 
-![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.003.png)![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.004.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.003.png)![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.004.png)
 
 
 **Тестирование на соответствие макету (desktop, мобильная):**
