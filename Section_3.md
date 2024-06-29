@@ -10,7 +10,7 @@
 
 Данный токен использую для авторизации
  
-**Swagger:
+**Swagger:**
 
 ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.003.png)**
 
