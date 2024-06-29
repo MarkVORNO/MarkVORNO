@@ -6,31 +6,31 @@
 
 ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.001.png)
 
-![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.002.png)
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.002.png)
 
 Данный токен использую для авторизации
 
-**Swagger:![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.003.png)**
+**Swagger:![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.003.png)**
 
 **Postman:** Auth Type выбираю Bearer Token
 
-![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.004.png)
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.004.png)
 
 1) **Запрос GET**
 
    Задача: Протестировать метод GET Customers
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.005.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.005.png)
 
    Try it out —-> Execute
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.006.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.006.png)
 
    Код ответа 200, проверяем тело ответа.
 
    **В Postman**
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.007.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.007.png)
 
  
 
@@ -38,11 +38,11 @@
 
    Тестирую запрос POST на Customers добавив нового покупателя
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.008.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.008.png)
 
    Дополнительно необходимо узнать “RegionId” с помощью GET/Region
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.009.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.009.png)
 
    Ввожу все необходимые данные в тело запроса в JSON формате: 
 
@@ -64,17 +64,17 @@
 
 Отправляю запрос POST.
 
-![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.010.png)
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.010.png)
 
 Проверяю код ответа 201.
 
 Далее с помощью запроса GET/Customers/{id} проверяю, что пользователь добавлен.
 
-![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.011.png)
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.011.png)
 
 Теперь протестируем в Postman, добавив точно такого же пользователя с таким же email.
 
-![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.012.png)
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.012.png)
 
 В ответе видно, что система не позволяет создать двух пользователей с одинаковой почтой (код 422 “пользователь с этой почтой уже есть в системе”) 
 
@@ -84,31 +84,31 @@
 
    С помощью запроса GET/Customers/{id} узнаем id, в теле PATCH/Customers/{id} указываем новую почту:
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.013.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.013.png)
 
    Отправляем запрос.
 
    Ответ:
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.014.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.014.png)
 
    С помощью запроса GET проверяю, что почта изменилась
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.015.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.015.png)
 
    В Postman изменим фамилию с “Man” на “Oleg”:
 
-   ![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.016.png)
+   ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.016.png)
 
 
 1) **Запрос DELETE**
 
 Удаляю созданного покупателя с помощью запроса DELETE/Customers/{id}
 
-![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.017.png)
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.017.png)
 
 Проверяю, что при запросе GET/Customers/{id} выдает 404
 
-![](Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.018.png)
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.018.png)
 
 
