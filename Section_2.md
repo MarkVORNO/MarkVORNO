@@ -14,11 +14,11 @@
 
 При нажатии на кнопку открывается попап:
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.002.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.002.png)
 
 Мобильная версия:
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.003.png)![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.004.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.003.png)![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.004.png)
 
 
 **Тестирование на соответствие макету (desktop, мобильная):**
@@ -47,7 +47,7 @@
 
 **Скриншот:** 
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.005.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.005.png)
 
 1) **ID** - NP-02
 
@@ -69,7 +69,7 @@
 
 **Скриншот:**
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.006.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.006.png)
 
 1) **ID** - NP-03
 
@@ -93,7 +93,7 @@
 
 **Скриншот:**
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.007.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.007.png)
 
 1) **ID** - NP-04
 
@@ -119,7 +119,7 @@
 
 **Скриншот:**
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.008.png)** 
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.008.png)** 
 
 1) **ID** - NP-05
 
@@ -147,7 +147,7 @@
 
 **Скриншот:**
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.009.jpeg)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.009.jpeg)
 
 **Другие несоответствия макету:**
 
@@ -183,7 +183,7 @@
 
 Далее составил матрицу, провел тестирование:
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.010.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.010.png)
 
 Обнаруженные дефекты:
 
@@ -211,7 +211,7 @@
 
 **Скриншот:** 
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.011.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.011.png)
 
 
 **Функциональность веб-элементов**
@@ -272,7 +272,7 @@
 
 **Скриншот:**
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.012.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.012.png)
 
 
 1) **ID** - NP-34
@@ -303,7 +303,7 @@
 
 **Скриншот:** 
 
-![](Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.013.png)
+![](assets/Aspose.Words.f2c82c06-f015-479e-b6b5-671837a5bed3.013.png)
 
 
 **Отчет по тестированию макета верстки**
