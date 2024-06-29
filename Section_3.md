@@ -10,7 +10,9 @@
 
 Данный токен использую для авторизации
 
-**Swagger:![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.003.png)**
+**Swagger:
+
+![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.003.png)**
 
 **Postman:** Auth Type выбираю Bearer Token
 
@@ -46,7 +48,7 @@
 
    Ввожу все необходимые данные в тело запроса в JSON формате: 
 
-   {
+   `{
 
    `  `"firstName": "Portfolio",
 
@@ -60,7 +62,7 @@
 
    `  `"sex": "MALE"
 
-   }
+   }`
 
 Отправляю запрос POST.
 
