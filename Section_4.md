@@ -5,9 +5,9 @@
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.001.png)
 
 **Запрос на получение целой таблицы**
-
+'''
 select \* from City
-
+'''
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.002.png)
 
 **Запрос на вывод столбца city\_name**
