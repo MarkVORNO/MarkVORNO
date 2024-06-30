@@ -6,13 +6,13 @@
 
 **Запрос на получение целой таблицы**
 ```
-select \* from City
+select * from City
 ```
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.002.png)
 
 **Запрос на вывод столбца city\_name**
 ```
-select city\_name from City
+select city_name from City
 ```
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.003.png)
 
@@ -21,24 +21,24 @@ select city\_name from City
 
 **Вариант 1:** 
 ```
-select \* from City where city\_id > 5 and city\_id<= 8
+select * from City where city_id > 5 and city_id<= 8
 ```
 **Вариант 2:** 
 ```
-select \* from City where city\_id BETWEEN 6 and 8
+select * from City where city_id BETWEEN 6 and 8
 ```
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.004.png)
 
 **Запрос на вывод значения по шаблону** 
 Все строки, где в city\_name присутствует “1” в любой позиции :
 ```
-select \* from city WHERE city\_name like’%1%’ 
+select * from city WHERE city_name like’%1%’ 
 ```
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.005.png)
 
 **Запрос на вывод с сортировкой по убыванию:**
 ```
-select \* from City ORDER BY city\_id DESC
+select * from City ORDER BY city_id DESC
 ```
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.006.png)
 
@@ -46,9 +46,9 @@ select \* from City ORDER BY city\_id DESC
 
 Найти 10 любых покупок с количеством проданных продуктов в заказе более 5000 р в статусе 3
 ```
-select \* from sale where sale\_id in 
+select * from sale where sale_id in 
 
-(select sale\_id from order\_status where status\_name\_id=3) 
+(select sale_id from order_status where status_name_id=3) 
 
 and amount>5000 LIMIT 10
 ```
@@ -61,15 +61,15 @@ and amount>5000 LIMIT 10
 
 Для решение задачи требуется использовать конструкцию JOIN.
 ```
-SELECT sale.\*, users.name
+SELECT sale.*, users.name
 
 FROM sale
 
 JOIN users 
 
-ON sale.user\_id = users.user\_id
+ON sale.user_id = users.user_id
 
-WHERE sale.user\_id = 5;
+WHERE sale.user_id = 5;
 ```
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.008.png)
 
@@ -77,19 +77,19 @@ WHERE sale.user\_id = 5;
 
 Получить таблицу с одним столбцом, содержащим все города и страны, id элементов которых меньше 10.
 ```
-SELECT city\_name AS name
+SELECT city_name AS name
 
 FROM City
 
-WHERE city\_id < 10
+WHERE city_id < 10
 
 UNION
 
-SELECT country\_name AS name
+SELECT country_name AS name
 
 FROM Country
 
-WHERE country\_id < 10;
+WHERE country_id < 10;
 ```
 ![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.009.png)
 
@@ -98,13 +98,13 @@ WHERE country\_id < 10;
 
 1) **Update -** изменение существующей записи
 ```
-   update product set name=’Test’ where name=’Product\_1’
+   update product set name=’Test’ where name=’Product_1’
 ```
 1) **Delete -** удаление существующей записи
 ```
-   delete from product where product\_id=4
+   delete from product where product_id=4
 ```
 1) **Insert into -** создание новой строки
 ```
-   insert into product values (99,’Product\_99’)’
+   insert into product values (99,’Product_99’)’
 ```
