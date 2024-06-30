@@ -20,7 +20,7 @@
 
 ### 1) **Запрос GET**
 
-   Задача: Протестировать метод GET Customers
+   Задача: Протестировать запрос GET Customers
 
    ![](assets/Aspose.Words.12dfdc4c-ee1c-4457-b071-31083f5085b3.005.png)
 
