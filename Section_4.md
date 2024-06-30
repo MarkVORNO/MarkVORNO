@@ -8,13 +8,13 @@
 
 select \* from City
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.002.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.002.png)
 
 **Запрос на вывод столбца city\_name**
 
 select city\_name from City
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.003.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.003.png)
 
 
 **Запрос на вывод с диапазоном**
@@ -23,20 +23,20 @@ select city\_name from City
 
 **Вариант 2:** select \* from City where city\_id BETWEEN 6 and 8
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.004.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.004.png)
 
 **Запрос на вывод значения по шаблону** 
 Все строки, где в city\_name присутствует “1” в любой позиции :
 
 select \* from city WHERE city\_name like’%1%’ 
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.005.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.005.png)
 
 **Запрос на вывод с сортировкой по убыванию:**
 
 select \* from City ORDER BY city\_id DESC
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.006.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.006.png)
 
 **Вложенный запрос:**
 
@@ -48,7 +48,7 @@ select \* from sale where sale\_id in
 
 and amount>5000 LIMIT 10
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.007.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.007.png)
 
 
 **Оператор JOIN**
@@ -67,7 +67,7 @@ ON sale.user\_id = users.user\_id
 
 WHERE sale.user\_id = 5;
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.008.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.008.png)
 
 **Оператор UNION**
 
@@ -87,7 +87,7 @@ FROM Country
 
 WHERE country\_id < 10;
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.009.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.009.png)
 
 
 **Операторы по изменению таблицы:**
