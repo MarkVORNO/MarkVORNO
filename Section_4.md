@@ -2,7 +2,7 @@
 
 Схема БД:
 
-![](Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.001.png)
+![](assets/Aspose.Words.2c1113b4-4244-4ee8-aca0-3ac353e41cb5.001.png)
 
 **Запрос на получение целой таблицы**
 
