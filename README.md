@@ -24,7 +24,7 @@
 
 ### Раздел 3: Тестирование API
 
-- **Инструменты:** Postman, Swagger
+- **Инструменты:** Postman, Swagger, JavaScript
 
 ([**Ссылка**](https://github.com/MarkVORNO/MarkVORNO/blob/main/Section_3.md))
 
